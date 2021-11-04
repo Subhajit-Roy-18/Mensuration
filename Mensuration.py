@@ -154,6 +154,7 @@ def again():
     if Again == "YES":
         print("")
         main()
+        again()
 
     elif Again == "NO":
         print("\n Thanks for Using.")
